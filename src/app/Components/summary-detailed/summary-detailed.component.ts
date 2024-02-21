@@ -56,6 +56,7 @@ export class SummaryDetailedComponent implements OnInit {
     this.summaryService.updateSummary(formData, this.selectedSummary.id).subscribe({
       next: (summaryupdate: SummaryModel) => {
         this.toastr.success("Record has been updated successfully!", 'Success');
+        this.getSummaryList();
       },
       error: (error) => {
         this.toastr.error(error.error);
