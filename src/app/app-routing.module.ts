@@ -5,6 +5,9 @@ import { SummaryComponent } from './Components/summary/summary.component';
 
 const routes: Routes = [
   {
+    path: '', redirectTo: 'summary', pathMatch: 'full'
+  },
+  {
     path: 'summary',
     component: SummaryComponent
   },
