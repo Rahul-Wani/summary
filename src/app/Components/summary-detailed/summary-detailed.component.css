@@ -1,0 +1,24 @@
+.select-summary {
+  cursor: pointer;
+}
+
+button {
+  float: right;
+}
+
+.box{
+  display: flex;
+  padding: 30px;
+}
+
+.col4{
+  width: 30%;
+}
+
+.col8{
+  width: 70%;
+}
+
+.summary-background {
+  background-color: grey;
+}
